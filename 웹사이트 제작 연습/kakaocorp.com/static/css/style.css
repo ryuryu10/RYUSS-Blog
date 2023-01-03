@@ -70,11 +70,13 @@ img {
 }
 
 @media (min-width: 1440px) {
+  body {
+    font-family: "Pretendard500";
+  }
   nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 72px;
     font-family: "Pretendard500";
   }
@@ -93,14 +95,125 @@ img {
     display: flex;
     justify-content: space-between;
     width: 450px;
+  }
+  nav #Resopnsive #IconMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+  }
+  #Contents {
+    position: relative;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-bottom: 182px;
+  }
+  #Contents #Header {
+    padding-top: 96px;
+    line-height: 55px;
+    letter-spacing: -1px;
+    font-family: "Pretendard700";
+    font-size: 40px;
+  }
+  #Contents #Middle {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #Contents #Middle .item {
+    flex: 1;
+    position: relative;
+    max-width: 666px;
+    padding: 0 18px;
+    box-sizing: border-box;
+  }
+  #Contents #Middle .item:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #Contents #Middle .item:nth-child(2) .card {
+    height: 192px;
+    width: 287px;
+  }
+  #Contents #Middle .item:nth-child(2) .card .Photo .Title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #Contents #Middle .card {
+    overflow: hidden;
+    position: relative;
+    margin-top: 36px;
+    border-radius: 14px;
+    background-color: var(--colorBg10);
+    box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 0.09);
+    display: block;
+    box-sizing: border-box;
+  }
+  #Contents #Middle .card .Title .Top {
+    padding: 25px 24px 0;
+  }
+  #Contents #Middle .card .Title .Top svg {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: top;
+  }
+  #Contents #Middle .card .Title .Top .Balloon {
+    display: inline-block;
+    position: relative;
+    height: 34px;
+    margin-top: 1px;
+    padding: 0 13px;
+    border-radius: 13px;
+    font-size: 13px;
+    line-height: 34px;
+    background-color: #eee;
+    vertical-align: top;
+  }
+  #Contents #Middle .card .Title .Top .Balloon::before {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18' fill='%23eee' %3E%3Cpath d='M0 0c3.003 2.178 4.963 5.706 4.961 9.699V18H18C18 8.059 9.941 0 0 0'/></svg>");
+    content: "";
+  }
+  #Contents #Middle .card .Photo .Title {
+    font-family: "Pretendard700";
+    padding: 0 24px 0;
+    max-height: 92px;
+    height: 92px;
+    margin-top: 13px;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -1px;
+  }
+  #Contents #Middle .card .Photo .Tag {
+    color: #666;
+    font-size: 14px;
+    padding: 25px 24px 0;
+  }
+  #Contents #Middle .card .Photo .Tag span {
+    font-family: "Pretendard400";
+    margin-right: 6px;
+  }
+  #Contents #Middle .card .Photo .Image {
+    margin-top: 31px;
+  }
+  #Contents #Middle .card .Photo .Image img {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 1439px) {
+  body {
+    font-family: "Pretendard500";
+  }
   nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 72px;
     font-family: "Pretendard500";
   }
@@ -119,14 +232,125 @@ img {
     display: flex;
     justify-content: space-between;
     width: 450px;
+  }
+  nav #Resopnsive #IconMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+  }
+  #Contents {
+    position: relative;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-bottom: 182px;
+  }
+  #Contents #Header {
+    padding-top: 96px;
+    line-height: 55px;
+    letter-spacing: -1px;
+    font-family: "Pretendard700";
+    font-size: 40px;
+  }
+  #Contents #Middle {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #Contents #Middle .item {
+    flex: 1;
+    position: relative;
+    max-width: 666px;
+    padding: 0 18px;
+    box-sizing: border-box;
+  }
+  #Contents #Middle .item:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #Contents #Middle .item:nth-child(2) .card {
+    height: 192px;
+    width: 287px;
+  }
+  #Contents #Middle .item:nth-child(2) .card .Photo .Title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #Contents #Middle .card {
+    overflow: hidden;
+    position: relative;
+    margin-top: 36px;
+    border-radius: 14px;
+    background-color: var(--colorBg10);
+    box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 0.09);
+    display: block;
+    box-sizing: border-box;
+  }
+  #Contents #Middle .card .Title .Top {
+    padding: 25px 24px 0;
+  }
+  #Contents #Middle .card .Title .Top svg {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: top;
+  }
+  #Contents #Middle .card .Title .Top .Balloon {
+    display: inline-block;
+    position: relative;
+    height: 34px;
+    margin-top: 1px;
+    padding: 0 13px;
+    border-radius: 13px;
+    font-size: 13px;
+    line-height: 34px;
+    background-color: #eee;
+    vertical-align: top;
+  }
+  #Contents #Middle .card .Title .Top .Balloon::before {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18' fill='%23eee' %3E%3Cpath d='M0 0c3.003 2.178 4.963 5.706 4.961 9.699V18H18C18 8.059 9.941 0 0 0'/></svg>");
+    content: "";
+  }
+  #Contents #Middle .card .Photo .Title {
+    font-family: "Pretendard700";
+    padding: 0 24px 0;
+    max-height: 92px;
+    height: 92px;
+    margin-top: 13px;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -1px;
+  }
+  #Contents #Middle .card .Photo .Tag {
+    color: #666;
+    font-size: 14px;
+    padding: 25px 24px 0;
+  }
+  #Contents #Middle .card .Photo .Tag span {
+    font-family: "Pretendard400";
+    margin-right: 6px;
+  }
+  #Contents #Middle .card .Photo .Image {
+    margin-top: 31px;
+  }
+  #Contents #Middle .card .Photo .Image img {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 1023px) {
+  body {
+    font-family: "Pretendard500";
+  }
   nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 72px;
     font-family: "Pretendard500";
   }
@@ -145,14 +369,125 @@ img {
     display: flex;
     justify-content: space-between;
     width: 450px;
+  }
+  nav #Resopnsive #IconMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+  }
+  #Contents {
+    position: relative;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-bottom: 182px;
+  }
+  #Contents #Header {
+    padding-top: 96px;
+    line-height: 55px;
+    letter-spacing: -1px;
+    font-family: "Pretendard700";
+    font-size: 40px;
+  }
+  #Contents #Middle {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #Contents #Middle .item {
+    flex: 1;
+    position: relative;
+    max-width: 666px;
+    padding: 0 18px;
+    box-sizing: border-box;
+  }
+  #Contents #Middle .item:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #Contents #Middle .item:nth-child(2) .card {
+    height: 192px;
+    width: 287px;
+  }
+  #Contents #Middle .item:nth-child(2) .card .Photo .Title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #Contents #Middle .card {
+    overflow: hidden;
+    position: relative;
+    margin-top: 36px;
+    border-radius: 14px;
+    background-color: var(--colorBg10);
+    box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 0.09);
+    display: block;
+    box-sizing: border-box;
+  }
+  #Contents #Middle .card .Title .Top {
+    padding: 25px 24px 0;
+  }
+  #Contents #Middle .card .Title .Top svg {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: top;
+  }
+  #Contents #Middle .card .Title .Top .Balloon {
+    display: inline-block;
+    position: relative;
+    height: 34px;
+    margin-top: 1px;
+    padding: 0 13px;
+    border-radius: 13px;
+    font-size: 13px;
+    line-height: 34px;
+    background-color: #eee;
+    vertical-align: top;
+  }
+  #Contents #Middle .card .Title .Top .Balloon::before {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18' fill='%23eee' %3E%3Cpath d='M0 0c3.003 2.178 4.963 5.706 4.961 9.699V18H18C18 8.059 9.941 0 0 0'/></svg>");
+    content: "";
+  }
+  #Contents #Middle .card .Photo .Title {
+    font-family: "Pretendard700";
+    padding: 0 24px 0;
+    max-height: 92px;
+    height: 92px;
+    margin-top: 13px;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -1px;
+  }
+  #Contents #Middle .card .Photo .Tag {
+    color: #666;
+    font-size: 14px;
+    padding: 25px 24px 0;
+  }
+  #Contents #Middle .card .Photo .Tag span {
+    font-family: "Pretendard400";
+    margin-right: 6px;
+  }
+  #Contents #Middle .card .Photo .Image {
+    margin-top: 31px;
+  }
+  #Contents #Middle .card .Photo .Image img {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 767px) {
+  body {
+    font-family: "Pretendard500";
+  }
   nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 72px;
     font-family: "Pretendard500";
   }
@@ -171,6 +506,115 @@ img {
     display: flex;
     justify-content: space-between;
     width: 450px;
+  }
+  nav #Resopnsive #IconMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+  }
+  #Contents {
+    position: relative;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-bottom: 182px;
+  }
+  #Contents #Header {
+    padding-top: 96px;
+    line-height: 55px;
+    letter-spacing: -1px;
+    font-family: "Pretendard700";
+    font-size: 40px;
+  }
+  #Contents #Middle {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #Contents #Middle .item {
+    flex: 1;
+    position: relative;
+    max-width: 666px;
+    padding: 0 18px;
+    box-sizing: border-box;
+  }
+  #Contents #Middle .item:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #Contents #Middle .item:nth-child(2) .card {
+    height: 192px;
+    width: 287px;
+  }
+  #Contents #Middle .item:nth-child(2) .card .Photo .Title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #Contents #Middle .card {
+    overflow: hidden;
+    position: relative;
+    margin-top: 36px;
+    border-radius: 14px;
+    background-color: var(--colorBg10);
+    box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 0.09);
+    display: block;
+    box-sizing: border-box;
+  }
+  #Contents #Middle .card .Title .Top {
+    padding: 25px 24px 0;
+  }
+  #Contents #Middle .card .Title .Top svg {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: top;
+  }
+  #Contents #Middle .card .Title .Top .Balloon {
+    display: inline-block;
+    position: relative;
+    height: 34px;
+    margin-top: 1px;
+    padding: 0 13px;
+    border-radius: 13px;
+    font-size: 13px;
+    line-height: 34px;
+    background-color: #eee;
+    vertical-align: top;
+  }
+  #Contents #Middle .card .Title .Top .Balloon::before {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18' fill='%23eee' %3E%3Cpath d='M0 0c3.003 2.178 4.963 5.706 4.961 9.699V18H18C18 8.059 9.941 0 0 0'/></svg>");
+    content: "";
+  }
+  #Contents #Middle .card .Photo .Title {
+    font-family: "Pretendard700";
+    padding: 0 24px 0;
+    max-height: 92px;
+    height: 92px;
+    margin-top: 13px;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -1px;
+  }
+  #Contents #Middle .card .Photo .Tag {
+    color: #666;
+    font-size: 14px;
+    padding: 25px 24px 0;
+  }
+  #Contents #Middle .card .Photo .Tag span {
+    font-family: "Pretendard400";
+    margin-right: 6px;
+  }
+  #Contents #Middle .card .Photo .Image {
+    margin-top: 31px;
+  }
+  #Contents #Middle .card .Photo .Image img {
+    width: 100%;
+    height: 100%;
   }
 }
 @font-face {
