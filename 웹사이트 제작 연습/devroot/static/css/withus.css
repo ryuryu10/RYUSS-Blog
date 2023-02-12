@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Pretendard400";
+  src: url("../fonts/Pretendard-Regular.otf");
+}
+@font-face {
+  font-family: "Pretendard500";
+  src: url("../fonts/Pretendard-Medium.otf");
+}
+@font-face {
+  font-family: "Pretendard600";
+  src: url("../fonts/Pretendard-SemiBold.otf");
+}
+@font-face {
+  font-family: "Pretendard700";
+  src: url("../fonts/Pretendard-Bold.otf");
+}
+* {
+  font-family: "Pretendard";
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(40, 40, 40);
+}
+.content .first {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pretendard700";
+  font-size: 200px;
+  color: white;
+}
+.content .first .title1, .content .first .title2 {
+  position: absolute;
+  mix-blend-mode: difference;
+}
+.content .first .arrow {
+  width: 0;
+  bottom: 5%;
+  height: 20px;
+  border: 1px solid #ffffff;
+  position: absolute;
+  animation: scroll 1.5s infinite;
+  -webkit-animation: scroll 1.5s infinite;
+}
+.content .first .arrow::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: -5px;
+  width: 1px;
+  height: 10px;
+  border-top: 10px solid #ffffff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+@keyframes scroll {
+  0% {
+    height: 20px;
+  }
+  30% {
+    height: 40px;
+  }
+  60% {
+    height: 20px;
+  }
+}/*# sourceMappingURL=withus.css.map */
